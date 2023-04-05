@@ -6,9 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TourHeroApiApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(TourHeroApiApplication.class, args);
-    }
+	/*
+	 * Documentación de la api en: http://localhost:8080/toh-api/swagger-ui.html
+	 */
+
+	public static void main(String[] args) {
+		SpringApplication.run(TourHeroApiApplication.class, args);
+	}
 
 }
-

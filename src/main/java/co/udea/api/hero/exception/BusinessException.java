@@ -5,14 +5,14 @@ package co.udea.api.hero.exception;
  */
 public class BusinessException extends GeneralRuntimeException {
 
-    private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-    public BusinessException(String message) {
-        super(message);
-    }
+	public BusinessException(String message) {
+		super(message);
+	}
 
-    public BusinessException(String message, String translationKey) {
-        super(message, translationKey);
-    }
+	public BusinessException(String message, String translationKey) {
+		super(message, translationKey);
+	}
 
 }

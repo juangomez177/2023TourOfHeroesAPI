@@ -9,34 +9,34 @@ import javax.persistence.Table;
 @Table(name = "heroes")
 public class Hero {
 
-    @Id
-    @Column(name = "id")
-    private Integer id;
+	@Id
+	@Column(name = "id")
+	private Integer id;
 
-    @Column(name = "name")
-    private String name;
+	@Column(name = "name")
+	private String name;
 
-    public Hero() {
-    }
+	public Hero() {
+	}
 
-    public Hero(Integer id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+	public Hero(Integer id, String name) {
+		this.id = id;
+		this.name = name;
+	}
 
-    public Integer getId() {
-        return id;
-    }
+	public Integer getId() {
+		return id;
+	}
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 }

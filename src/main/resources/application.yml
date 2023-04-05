@@ -1,7 +1,7 @@
 # Server properties
 server:
   servlet:
-    context-path: /tour-api
+    context-path: /toh-api
   port: 8080
 
 # Spring properties
@@ -10,4 +10,8 @@ spring:
   profiles:
     active: dev
   application:
-    name: tour-api
+    name: 2023TourOfHeroesAPI
+  datasource:
+    url: jdbc:mysql://bpcxfcqpxm95jtlpkfhs-mysql.services.clever-cloud.com:3306/bpcxfcqpxm95jtlpkfhs  #jdbc:mysql://<host>:<port>/<database>
+    username: uwelssntnbzef982
+    password: bV1Y3VhJMAgz8JsjqXid
