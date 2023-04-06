@@ -33,7 +33,7 @@ public class HeroController {
 
 	// Obtener todos los heroes (http://localhost:8080/toh-api/heroes)
 	@GetMapping
-	// Documentación Swagger
+	// Documentación Swagger, disponible en http://localhost:8080/toh-api/swagger-ui.html
 	@ApiOperation(value = "Obtiene todos los heroes", response = Hero.class, responseContainer = "List")
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "Heroes encontrados exitosamente"),
 			@ApiResponse(code = 400, message = "La petición es invalida"),
