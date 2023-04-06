@@ -16,11 +16,11 @@ A continuación se listan los programas, herramientas y tecnologías necesarias 
 - IDE Spring Tool Suite (Eclipse) o IntelliJ IDEA o su IDE de preferencia.
 
 Y estas son las instrucciones para descargar, configurar y ejecutar tu proyecto:
-**1.** Clona este repositorio desde la línea de comandos: `git clone https://github.com/juangomez177/2023TourOfHeroesAPI.git`.
-**2.** Abre el proyecto en tu IDE.
-**3.** Ejecuta el archivo TourHeroApiApplication.java
-**4.** La aplicación debería estar disponible en `http://localhost:8080/toh-api/heroes` la cual debe mostrar a todos los heroes registrados.
-**5.** Ejecute pruebas utilizando **Postman**, o **Swagger UI**, para hacer operaciones de `GET, POST, PUT, DELETE`.
+**1.** Clona este repositorio desde la línea de comandos: `git clone https://github.com/juangomez177/2023TourOfHeroesAPI.git`.  
+**2.** Abre el proyecto en tu IDE.  
+**3.** Ejecuta el archivo TourHeroApiApplication.java  
+**4.** La aplicación debería estar disponible en `http://localhost:8080/toh-api/heroes` la cual debe mostrar a todos los heroes registrados.  
+**5.** Ejecute pruebas utilizando **Postman**, o **Swagger UI**, para hacer operaciones de `GET, POST, PUT, DELETE`.  
 
 Si desea ejecutar pruebas sobre el proyecto **Tour Or Heroes**, deberá configurarlo también. Revise `README.md` en [Git Hub](https://github.com/juangomez177/2023TourOfHeroes.git)
 
