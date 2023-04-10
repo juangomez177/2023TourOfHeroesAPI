@@ -6,7 +6,7 @@ Este proyecto fue construido con el IDE Eclipse bajo el entorno de SpringToolSui
 El host para la Base de Datos está alojado en [Clever Cloud](https://www.clever-cloud.com/).  
 Y la URI del proyecto es `http://localhost:8080/toh-api`.
 
-Es una solución Back-End para el proyecto **Tour Or Heroes de Angular**, disponible en [Git Hub](https://github.com/juangomez177/2023TourOfHeroes.git)
+Es una solución Back-End para el proyecto **Tour Of Heroes de Angular**, disponible en [Git Hub](https://github.com/juangomez177/2023TourOfHeroes.git)
 
 ## Ejecutando pruebas
 
@@ -16,13 +16,13 @@ A continuación se listan los programas, herramientas y tecnologías necesarias 
 - IDE Spring Tool Suite (Eclipse) o IntelliJ IDEA o su IDE de preferencia.
 
 Y estas son las instrucciones para descargar, configurar y ejecutar tu proyecto:  
-1. Clona este repositorio desde la línea de comandos: `git clone https://github.com/juangomez177/2023TourOfHeroesAPI.git`.
+1. Clona este repositorio desde la línea de comandos: `git clone https://github.com/juangomez177/2023TourOfHeroesAPI.git`.  
 2. Abre el proyecto en tu IDE.
 3. Ejecuta el archivo TourHeroApiApplication.java
 4. La aplicación debería estar disponible en `http://localhost:8080/toh-api/heroes` la cual debe mostrar a todos los heroes registrados.
 5. Ejecute pruebas utilizando **Postman** o **Swagger UI**, para hacer operaciones de `GET, POST, PUT, DELETE`.
 
-Si desea ejecutar pruebas sobre el proyecto **Tour Or Heroes**, deberá configurarlo también. Revise `README.md` en [Git Hub](https://github.com/juangomez177/2023TourOfHeroes.git)
+Si desea ejecutar pruebas sobre el proyecto **Tour Of Heroes de Angular**, deberá configurarlo también. Revise `README.md` en [Git Hub](https://github.com/juangomez177/2023TourOfHeroes.git)
 
 ## Documentación 
 Puede revisar la documentación de la api en `http://localhost:8080/toh-api/swagger-ui.html`.
